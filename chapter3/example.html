@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="main.js" async></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="constr">
+        <div class="box clear">
+            <img src="images/1.jpeg" width="256" height="192">
+        </div>
+    </div>  
+    <div class="constr">
+        <p>请选择清除浮动的方法：</p>
+        <pre>.clear:after {
+            content: '';
+            display: <select id="select">
+                <option value="">请选择</option>
+                <option value="block">block</option>
+                <option value="table">table</option>
+                <option value="list-item">list-item</option>
+            </select>;
+            clear: both;
+        }</pre>
+    </div>
+</body>
+</html>

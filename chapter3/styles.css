@@ -1,0 +1,28 @@
+:root {
+    --pseduo-display-style: "";
+}
+.constr:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.box {
+    padding: 10px;
+    background-color: #cd0000;
+}
+
+.box > img {
+    float: left;
+}
+
+.clear:after {
+    content: "";
+    display: var(--pseduo-display-style);
+    clear: both;
+}
+
+.constr:after {
+    content: "";
+    display: block;
+    clear: both;
+}
